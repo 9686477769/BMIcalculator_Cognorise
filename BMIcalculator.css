@@ -1,0 +1,45 @@
+body{
+    margin:0%;
+    padding:0%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background:sandybrown;*/
+    background-image: url(bmi_img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+span{
+    color: red;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 50%;
+    background: linear-gradient(to right,skyblue, #e97451);
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.wrapper:hover{
+        background: linear-gradient(to left,hotpink, cyan);
+        
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+button{
+    color: black;
+    padding: 10px;
+    border: 2px solid skyblue;
+    background:#f88379;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+    border-radius: 10px;
+}
